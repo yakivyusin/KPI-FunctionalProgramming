@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lct01-FunctionalConcepts", "Lct01-FunctionalConcepts.csproj", "{7AAD5281-A91A-43EE-9590-0EF873D10568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AAD5281-A91A-43EE-9590-0EF873D10568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAD5281-A91A-43EE-9590-0EF873D10568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAD5281-A91A-43EE-9590-0EF873D10568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAD5281-A91A-43EE-9590-0EF873D10568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC5051BF-55B4-4435-8A08-F639C8A03E98}
+	EndGlobalSection
+EndGlobal
