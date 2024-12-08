@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CeremonialHelloWorld": {
+      "commandName": "Project",
+      "commandLineArgs": "Hello World"
+    }
+  }
+}
