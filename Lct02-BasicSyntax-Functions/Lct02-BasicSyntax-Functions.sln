@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CeremonialHelloWorld", "CeremonialHelloWorld\CeremonialHelloWorld.fsproj", "{07E23AF0-7893-4FF6-B4A5-10A2B666BFA2}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BasicSyntax", "BasicSyntax\BasicSyntax.fsproj", "{256DE8CB-E497-4711-90DB-B3C4B2AC480D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{07E23AF0-7893-4FF6-B4A5-10A2B666BFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07E23AF0-7893-4FF6-B4A5-10A2B666BFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07E23AF0-7893-4FF6-B4A5-10A2B666BFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256DE8CB-E497-4711-90DB-B3C4B2AC480D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256DE8CB-E497-4711-90DB-B3C4B2AC480D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256DE8CB-E497-4711-90DB-B3C4B2AC480D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256DE8CB-E497-4711-90DB-B3C4B2AC480D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
