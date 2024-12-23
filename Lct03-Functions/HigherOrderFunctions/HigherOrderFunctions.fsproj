@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="HOFExample1.fsx" />
+    <None Include="HOFExample2.fsx" />
+    <None Include="HOFExample3.fsx" />
+    <None Include="LambdaExample1.fsx" />
+    <None Include="LambdaExample2.fsx" />
+    <None Include="LambdaExample3.fsx" />
+  </ItemGroup>
+
+</Project>
