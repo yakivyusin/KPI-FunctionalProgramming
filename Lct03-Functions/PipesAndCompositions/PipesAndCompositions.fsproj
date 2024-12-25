@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="ForwardPipe.fsx" />
+    <None Include="BackwardPipe.fsx" />
+    <None Include="ForwardComposition.fsx" />
+    <None Include="BackwardComposition.fsx" />
+  </ItemGroup>
+
+</Project>
