@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypesOverBasicTypes", "TypesOverBasicTypes\TypesOverBasicTypes.fsproj", "{BD5B2E39-904F-48CA-B991-870C9213680A}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tuples", "Tuples\Tuples.fsproj", "{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BD5B2E39-904F-48CA-B991-870C9213680A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5B2E39-904F-48CA-B991-870C9213680A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD5B2E39-904F-48CA-B991-870C9213680A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
