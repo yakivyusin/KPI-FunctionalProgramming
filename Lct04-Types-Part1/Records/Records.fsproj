@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="SimpleOperations.fsx" />
+    <None Include="Functions.fsx" />
+    <None Include="AnonymousRecords.fsx" />
+  </ItemGroup>
+
+</Project>

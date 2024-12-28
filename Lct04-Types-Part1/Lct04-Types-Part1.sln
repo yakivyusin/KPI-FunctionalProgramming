@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TypesOverBasicTypes", "Type
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tuples", "Tuples\Tuples.fsproj", "{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Records", "Records\Records.fsproj", "{284F14FD-C399-45A7-A875-2BC3D74AAFFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E9B506D-83EA-4D70-A0B8-61E47C4C362E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284F14FD-C399-45A7-A875-2BC3D74AAFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284F14FD-C399-45A7-A875-2BC3D74AAFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284F14FD-C399-45A7-A875-2BC3D74AAFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284F14FD-C399-45A7-A875-2BC3D74AAFFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
