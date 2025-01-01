@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="IfThenElse.fsx" />
+    <None Include="BasicsWithConstantsPatternMatching.fsx" />
+    <None Include="TuplesPatternMatching.fsx" />
+    <None Include="RecordsPatternMatching.fsx" />
+    <None Include="TypesPatternMatching.fsx" />
+    <None Include="Guards.fsx" />
+  </ItemGroup>
+
+</Project>
