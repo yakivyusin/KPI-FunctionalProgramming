@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Namespaces.fs" />
+    <Compile Include="Modules.fs" />
+    <Compile Include="TopLevelModule.fs" />
+    <Compile Include="Program.fs" />
+    <None Include="Organization1.fsx" />
+    <None Include="Organization2.fsx" />
+  </ItemGroup>
+
+</Project>
