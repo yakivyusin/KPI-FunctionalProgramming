@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Basics.fsx" />
+    <None Include="EmptyCases.fsx" />
+    <None Include="SingleCase.fsx" />
+    <None Include="Enums.fsx" />
+    <None Include="EmulateCommonFields.fsx" />
+  </ItemGroup>
+
+</Project>
