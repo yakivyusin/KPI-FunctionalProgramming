@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="OwnTypes.fsx" />
+    <None Include="OtherTypes.fsx" />
+    <None Include="SystemTypes.fsx" />
+    <None Include="AttachStandalone.fsx" />
+  </ItemGroup>
+
+</Project>
