@@ -19,6 +19,7 @@ let box = { LeftTopCorner = { Lat = 51.348; Long = 25.849 }; RightBottomCorner =
 let operations = { Addition = (fun x y -> x + y); Multiplication = (fun x y -> x * y) }
 
 // fail: let somewhere = { Lat = 0.0 }
+// fail: let absent: ComplexNumber = null
 
 let kyiv2 = { Long = 30.5267; Lat = 50.4542 }
 
@@ -27,6 +28,13 @@ let kyiv2 = { Long = 30.5267; Lat = 50.4542 }
     Перевіряються всі члени між собою.
 *)
 kyiv = kyiv2
+
+(*
+    Якщо всі члени запису підтримують порівняння, то ми автоматично можемо порівнювати записи, як і кортежі.
+    Відбувається порівняння у порядку визначення членів у оголошенні запису.
+*)
+complexNumber < { Real = 3.0; Imaginary = 0.0 }
+complexNumber < { Real = 2.0; Imaginary = 1.0 }
 
 (*
     Компілятор не зможе автоматично вивести тип, якщо ми матимемо декілька записів з однаковими членами.
