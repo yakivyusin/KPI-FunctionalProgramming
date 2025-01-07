@@ -8,6 +8,7 @@
     <None Include="SimpleFunctions.fsx" />
     <None Include="SimpleTypes.fsx" />
     <None Include="Constraints.fsx" />
+    <None Include="StaticallyResolvedTypeParameters.fsx" />
   </ItemGroup>
 
 </Project>
