@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Array.fsx" />
+    <None Include="List.fsx" />
+    <None Include="Seq.fsx" />
+    <None Include="Set.fsx" />
+    <None Include="Map.fsx" />
+    <None Include="PatternMatching.fsx" />
+  </ItemGroup>
+
+</Project>
