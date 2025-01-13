@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Basics.fsx" />
+    <None Include="Map.fsx" />
+    <None Include="Bind.fsx" />
+    <None Include="Pipelining.fsx" />
+    <None Include="CollectionFunctions.fsx" />
+  </ItemGroup>
+
+</Project>
