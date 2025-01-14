@@ -10,6 +10,7 @@
     <None Include="RecursiveData.fsx" />
     <None Include="Exceptions.fsx" />
     <None Include="MoreArrays.fsx" />
+    <None Include="ModulesExtend.fsx" />
   </ItemGroup>
 
 </Project>
