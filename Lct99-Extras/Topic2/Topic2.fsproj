@@ -8,6 +8,7 @@
     <None Include="CustomOperators.fsx" />
     <None Include="MorePipes.fsx" />
     <None Include="RecursiveData.fsx" />
+    <None Include="Exceptions.fsx" />
   </ItemGroup>
 
 </Project>
