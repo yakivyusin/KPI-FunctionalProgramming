@@ -9,6 +9,7 @@
     <None Include="MorePipes.fsx" />
     <None Include="RecursiveData.fsx" />
     <None Include="Exceptions.fsx" />
+    <None Include="MoreArrays.fsx" />
   </ItemGroup>
 
 </Project>
