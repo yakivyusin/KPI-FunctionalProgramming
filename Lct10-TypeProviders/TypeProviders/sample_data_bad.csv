@@ -1,0 +1,11 @@
+﻿ID,Name,DateOfBirth,IsActive,Salary
+1,John Doe,1994-02-15,True,55000.0
+2,Jane Smith,1989-11-23,False,67000.0
+3,Chris Johnson,2001-06-12,True,45000.0
+4,Emily Davis,1996-08-05,True,52000.0
+5,Michael Brown,1983-03-19,False,78000.0
+6,Sarah Wilson,1992-01-22,True,60000.0
+7,Daniel Garcia,1998-09-14,True,48000.0
+8,Laura Martinez,1986-04-18,False,73000.0
+9,James White,1995-07-02,True,56000.0
+10,Susan Taylor,1991-10-10,True,62000.0

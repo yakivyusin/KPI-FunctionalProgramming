@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="QuickStart-Csv.fsx" />
+    <None Include="sample_data.csv" />
+    <None Include="sample_data_bad.csv" />
+    <None Include="RemoteSource-Xml.fsx" />
+    <Content Include="eurofxref-daily.xml" />
+    <None Include="MixingLocalAndRemote-Json.fsx" />
+    <Content Include="countries_sample.json" />
+    <None Include="HtmlProvider.fsx" />
+  </ItemGroup>
+
+</Project>
