@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="ClassExample1.fsx" />
+    <None Include="ClassExample2.fsx" />
+    <None Include="ClassExample3.fsx" />
+    <None Include="Interfaces.fsx" />
+  </ItemGroup>
+
+</Project>
