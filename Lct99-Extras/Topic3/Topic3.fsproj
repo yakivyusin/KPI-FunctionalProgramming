@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <None Include="StructTuple.fsx" />
+    <None Include="GenericObjectTypes.fsx" />
   </ItemGroup>
 
 </Project>
