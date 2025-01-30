@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Task": {
+      "commandName": "Project",
+      "commandLineArgs": "https://google.com https://kpi.ua"
+    }
+  }
+}

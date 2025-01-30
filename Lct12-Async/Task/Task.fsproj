@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Example1.fsx" />
+    <None Include="Example2.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
