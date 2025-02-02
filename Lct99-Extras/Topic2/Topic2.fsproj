@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="DoUse.fsx" />
     <None Include="CustomOperators.fsx" />
     <None Include="MorePipes.fsx" />
     <None Include="RecursiveData.fsx" />
