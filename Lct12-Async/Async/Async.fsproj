@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Cold.fsx" />
+    <None Include="Combinators.fsx" />
+    <None Include="Laziness.fsx" />
+    <None Include="TailRecursion.fsx" />
+    <None Include="TaskInterop.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="6.4.1" />
+  </ItemGroup>
+
+</Project>

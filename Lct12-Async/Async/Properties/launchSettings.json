@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Async": {
+      "commandName": "Project",
+      "commandLineArgs": "https://kpi.ua https://pzks.fpm.kpi.ua https://google.com https://reddit.com"
+    }
+  }
+}
