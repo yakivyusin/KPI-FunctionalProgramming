@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="ListExpression-Zero.fsx" />
+    <None Include="ListExpression-Yield.fsx" />
+    <None Include="ListExpression-CombineDelay.fsx" />
+    <None Include="ListExpression-YieldFrom.fsx" />
+    <None Include="ListExpression-For.fsx" />
+    <None Include="OptionExpression.fsx" />
+  </ItemGroup>
+
+</Project>
