@@ -37,9 +37,9 @@ const int immutableVariable = 10; // local constant in C#
 var immutableRecord = new ImmutableRecord(immutableVariable, "Peter"); // records have 'init' properties by default
 
 /* This will cause compile errors */
-// immutableVariable = 20;
-// rec.A += 10;
-// rec.B = "Vasya";
+//immutableVariable = 20;
+//immutableRecord.A += 10;
+//immutableRecord.B = "Vasya";
 
 WritePrompt("Dumps");
 
