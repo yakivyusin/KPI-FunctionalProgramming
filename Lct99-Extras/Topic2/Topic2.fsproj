@@ -9,6 +9,7 @@
     <None Include="CustomOperators.fsx" />
     <None Include="MorePipes.fsx" />
     <None Include="RecursiveData.fsx" />
+    <Compile Include="TailCallAttribute.fs" />
     <None Include="Exceptions.fsx" />
     <None Include="MoreArrays.fsx" />
     <None Include="ModulesExtend.fsx" />
