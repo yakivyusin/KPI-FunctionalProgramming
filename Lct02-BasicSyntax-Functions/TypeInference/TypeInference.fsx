@@ -32,11 +32,6 @@ let scope1 =
     // ignore (add 1.0 2.0)
     // ignore (add 1 2)
 
-    let inline add a b = a + b
-    ignore (add 1 2)
-    ignore (add 1.0 2.0)
-    ignore (add "1" "b")
-
     0
 
 let scope2 =
@@ -59,16 +54,16 @@ let scope3 =
 
     list
 
-let sayHello(someValue) =
-    let innerFunction(number) =
+let sayHello someValue =
+    let innerFunction number =
         if number > 10 then "Isaac"
         elif number > 20 then "Fred"
         else "Sara"
 
     let resultOfInner =
-        if someValue < 10.0 then innerFunction(5)
-        else innerFunction(15)
+        if someValue < 10.0 then innerFunction 5
+        else innerFunction 15
 
     "Hello " + resultOfInner
 
-let result = sayHello(10.5)
+let result = sayHello 10.5
