@@ -1,8 +1,8 @@
 ﻿let jane1 = "Jane Smith"
-                |> (fun x ->
-                        let parts = x.Split(' ')
-                        {| FirstName = parts.[0]; LastName = parts.[1] |})
-                |> (fun x -> {| x with LastName = "Doe" |})
+            |> (fun x ->
+                    let parts = x.Split(' ')
+                    {| FirstName = parts.[0]; LastName = parts.[1] |})
+            |> (fun x -> {| x with LastName = "Doe" |})
 
 let jane2 = {| FirstName = "Jane"; LastName = "Doe" |}
 jane1 = jane2

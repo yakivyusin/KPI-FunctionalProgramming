@@ -6,4 +6,4 @@ let genericLogger before after anyFunc input =
     after result
     result 
 
-genericLogger (printfn "Before: %i") (printf "After: %i") (add 1) 2
+genericLogger (printfn "Before: %i") (printfn "After: %i") (add 1) 2

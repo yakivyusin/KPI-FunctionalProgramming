@@ -5,7 +5,9 @@
 let distance = 1.0<m>
 let time = 2.0<sec>
 
-// Три наступні значення мають одну і ту саму одиницю виміру
+(*
+    Три наступні значення мають одну і ту саму одиницю виміру.
+*)
 let speed = 1.0<m / sec>
 [<Measure>] type speed = m / sec
 let speed2 = 1.0<speed>
@@ -25,6 +27,9 @@ meterTwoTimes distance |> ignore
 // fail: meterTwoTimes 2.0
 // fail: meterTwoTimes 1<kg>
 
+(*
+    Компілятор також враховує одиниці виміру під час автоматичного виводу типів.
+*)
 let addKilometer m = m + 1000<m>
 
 addKilometer 1000<m> |> ignore

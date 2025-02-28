@@ -3,8 +3,8 @@ type AdditionFunction = int -> int -> int
 type CustomerId = int
 type OrderId = int
 
-let x:RealNumber = 3.14
-let f:AdditionFunction = fun x y -> x + y
+let x: RealNumber = 3.14
+let f: AdditionFunction = fun x y -> x + y
 
 let processCustomerId (id: CustomerId) = 0
 let processOrderId (id: OrderId) = 1
@@ -14,8 +14,8 @@ let processOrderId (id: OrderId) = 1
 *)
 
 // Значення правильних псевдонімів
-let customerId:CustomerId = 10
-let orderId:OrderId = 20
+let customerId: CustomerId = 10
+let orderId: OrderId = 20
 
 processCustomerId customerId |> ignore
 processOrderId orderId |> ignore
