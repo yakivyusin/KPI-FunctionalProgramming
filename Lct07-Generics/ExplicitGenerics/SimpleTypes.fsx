@@ -20,7 +20,7 @@ let guidIntValue = { Key = System.Guid.NewGuid(); Value = 100 }
 // 'a -> 'b -> KeyValue<'a, 'b>
 let toRecord key value = { Key = key; Value = value }
 
-// KeyValue<'a, 'b> -> 'a -> 'b
+// KeyValue<'a, 'b> -> 'a * 'b
 let fromRecord { Key = key; Value = value } = (key, value)
 
 // LeftOrRight<int, 'a>
