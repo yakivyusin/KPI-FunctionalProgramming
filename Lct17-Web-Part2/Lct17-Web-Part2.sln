@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FableApp", "FableApp\FableApp.fsproj", "{A30C34CE-6B1F-4F0E-960F-BD7854E7670E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ElmishCounterApp", "ElmishCounterApp\ElmishCounterApp.fsproj", "{A30C34CE-6B1F-4F0E-960F-BD7854E767AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A30C34CE-6B1F-4F0E-960F-BD7854E7670E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A30C34CE-6B1F-4F0E-960F-BD7854E7670E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A30C34CE-6B1F-4F0E-960F-BD7854E7670E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30C34CE-6B1F-4F0E-960F-BD7854E767AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30C34CE-6B1F-4F0E-960F-BD7854E767AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30C34CE-6B1F-4F0E-960F-BD7854E767AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30C34CE-6B1F-4F0E-960F-BD7854E767AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
