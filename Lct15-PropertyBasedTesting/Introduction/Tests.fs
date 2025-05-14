@@ -64,18 +64,15 @@ let ``When I add two numbers, I expect their sum`` x y sum =
 
 
 
-let randomInt =
-    let r = System.Random ()
-    fun () -> r.Next 1000
-
 [<Fact>]
 let ``When I add two random numbers (100 times), I expect their sum`` () =
     (*
         Повторюємо 100 разів, щоб випадково не потрапити у діапазон 1..10 єдиним запуском.
     *)
+    let r = System.Random ()
     for _ = 1 to 100 do
-        let x = randomInt ()
-        let y = randomInt ()
+        let x = r.Next 1000
+        let y = r.Next 1000
         Assert.Equal(x + y, add x y)
 
 (*
@@ -84,21 +81,24 @@ let ``When I add two random numbers (100 times), I expect their sum`` () =
 
 [<Fact>]
 let ``When I add two numbers (100 times), the result should not depend on parameter order`` () =
+    let r = System.Random ()
     for _ = 1 to 100 do
-        let x = randomInt ()
-        let y = randomInt ()
+        let x = r.Next 1000
+        let y = r.Next 1000
         Assert.Equal(add x y, add y x)
 
 [<Fact>]
 let ``When I add 0 to number (100 times), the result should be equal to this number`` () =
+    let r = System.Random ()
     for _ = 1 to 100 do
-        let x = randomInt ()
+        let x = r.Next 1000
         Assert.Equal(x, add x 0)
 
 [<Fact>]
 let ``When I add three numbers (100 times), the result should not depend on adding order`` () =
+    let r = System.Random ()
     for _ = 1 to 100 do
-        let x = randomInt ()
-        let y = randomInt ()
-        let z = randomInt ()
+        let x = r.Next 1000
+        let y = r.Next 1000
+        let z = r.Next 1000
         Assert.Equal(add x (add y z), add (add x y) z)
