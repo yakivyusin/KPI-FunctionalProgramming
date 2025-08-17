@@ -10,9 +10,9 @@
     <TypeScriptCompile Include="vite.config.mts" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Fable.Browser.DOM" Version="2.18.1" />
-    <PackageReference Include="Fable.Core" Version="4.5.0" />
-    <PackageReference Include="Fable.Fetch" Version="2.7.0" />
-    <PackageReference Include="Thoth.Json" Version="10.4.1" />
+    <PackageReference Include="Fable.Browser.DOM" />
+    <PackageReference Include="Fable.Core" />
+    <PackageReference Include="Fable.Fetch" />
+    <PackageReference Include="Thoth.Json" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,29 @@
+﻿<Project>
+  <PropertyGroup>
+    <!-- Enable central package management, https://learn.microsoft.com/en-us/nuget/consume-packages/Central-Package-Management -->
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="FSharp.Core" Version="9.0.303" />
+    <PackageVersion Include="FSharp.Data" Version="6.6.0" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageVersion Include="MSTest" Version="3.10.2" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4" />
+    <PackageVersion Include="NUnit" Version="4.4.0" />
+    <PackageVersion Include="NUnit3TestAdapter" Version="5.1.0" />
+    <PackageVersion Include="FsUnit.xUnit" Version="7.1.1" />
+    <PackageVersion Include="Unquote" Version="7.0.1" />
+    <PackageVersion Include="FsCheck.Xunit" Version="3.3.0" />
+    <PackageVersion Include="Saturn" Version="0.17.0" />
+    <PackageVersion Include="Fable.Browser.DOM" Version="2.20.0" />
+    <PackageVersion Include="Fable.Core" Version="4.5.0" />
+    <PackageVersion Include="Fable.Fetch" Version="2.7.0" />
+    <PackageVersion Include="Thoth.Json" Version="10.4.1" />
+    <PackageVersion Include="Fable.React" Version="9.4.0" />
+    <PackageVersion Include="Feliz" Version="2.9.0" />
+    <PackageVersion Include="Fable.Elmish" Version="5.0.2" />
+    <PackageVersion Include="Fable.Elmish.React" Version="5.0.0" />
+  </ItemGroup>
+</Project>
