@@ -3,12 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
-
-  <ItemGroup />
-
+  
   <ItemGroup>
     <None Include="TypeInference.fsx" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
   </ItemGroup>
 
 </Project>
