@@ -12,4 +12,8 @@
     <ProjectReference Include="..\CSharpClassLibrary\CSharpClassLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+  </ItemGroup>
+
 </Project>

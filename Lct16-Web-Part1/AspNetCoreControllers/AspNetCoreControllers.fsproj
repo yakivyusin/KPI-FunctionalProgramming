@@ -7,4 +7,8 @@
     <None Include="Demo.http" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+  </ItemGroup>
+
 </Project>

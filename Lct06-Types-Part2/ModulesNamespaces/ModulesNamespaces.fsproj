@@ -13,4 +13,8 @@
     <None Include="Organization2.fsx" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" />
+  </ItemGroup>
+
 </Project>
